@@ -1,0 +1,47 @@
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#game-container {
+    border: 1px solid red;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#players {
+    display: flex;
+    justify-content: space-between;
+}
+
+#players li .player {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#players li .player .player-name {
+    margin-right: 20px;
+}
+
+#game-board .outer-wrap .inner-wrap {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#game-board .outer-wrap .inner-wrap li {
+    width: 31%;
+    margin-bottom: 20px;
+}
+
+#game-board .outer-wrap .inner-wrap li button {
+    height: 100px;
+    width: 100%;
+    background-color: #797979;
+}
+
+#players li.active {
+    border: 1px solid red;
+}
