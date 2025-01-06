@@ -1,10 +1,11 @@
 import React from 'react';
-import Wrapper from './component/investment-calculator/wrapper';
-// import Wrapper from './component/styledComponents/wrapper';
+import Wrapper from './component/refsAndPortals/wrapper';
 
 const App = () => {
-  return (<>
-    <Wrapper />
-  </>)
+  return (
+    <>
+      <Wrapper />
+    </>
+  )
 }
 export default App;
