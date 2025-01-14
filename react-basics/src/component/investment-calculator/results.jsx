@@ -2,7 +2,6 @@ import { calculateInvestmentResults, formatter } from "../../utils/investment";
 
 const Results = ({ userInputValue }) => {
     const result = calculateInvestmentResults(userInputValue)
-    console.log("result", result);
     const initialInvestment = result[0].valueEndOfYear - result[0].interest - result[0].annualInvestment;
     return (
         <table className="table">

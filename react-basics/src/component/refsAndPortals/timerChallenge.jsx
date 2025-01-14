@@ -37,7 +37,11 @@ const TimerChallenge = ({ title, targetTime }) => {
 
     return (
         <>
-            <ResultModal ref={dialog} targetTime={targetTime} remaningTime={timeRemaning} />
+            <ResultModal
+                ref={dialog}
+                targetTime={targetTime}
+                remaningTime={timeRemaning}
+                onReset={handleReset} />
             <section className={timerStyle.timer}>
                 <h2>{title}</h2>
                 <p>{targetTime} second{targetTime > 1 ? "s" : ""}</p>

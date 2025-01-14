@@ -7,7 +7,6 @@ const Wrapper = () => {
 
   const handleClick = (action) => {
     setselectedData(action)
-    console.log("actiojn", action);
 
   }
 

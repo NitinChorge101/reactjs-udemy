@@ -1,0 +1,84 @@
+.mainWrapper {
+    display: flex;
+    background-color: antiquewhite;
+    min-height: 100vh;
+    color: #000;
+}
+
+.sidebarWrapper {
+    width: 25%;
+    background-color: #000;
+    color: #fff !important;
+    padding: 20px;
+}
+
+.sidebarWrapper .title {
+    text-transform: uppercase;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.formWrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1;
+    max-width: 700px;
+    padding: 100px;
+}
+
+.btnWrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+
+.inputWrap {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.inputWrap label {
+    margin-bottom: 4px;
+}
+
+.inputWrap input {
+    padding: 7px;
+}
+
+.main {
+    flex: 1 1;
+}
+
+.projectNames {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projectNames li {
+    background-color: #232323;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}

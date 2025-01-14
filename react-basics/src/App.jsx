@@ -1,10 +1,11 @@
 import React from 'react';
-import Wrapper from './component/refsAndPortals/wrapper';
+import ProjManageWrapper from './component/proj-management/proManageWrapper';
+
 
 const App = () => {
   return (
     <>
-      <Wrapper />
+      <ProjManageWrapper />
     </>
   )
 }

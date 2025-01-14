@@ -74,7 +74,6 @@ const Wrapper = () => {
     }
 
     const handlePlayerNameChange = (symbol, newName) => {
-        console.log("symbol", symbol);
 
         setPlayers(prevPlayers => {
             return { ...prevPlayers, [symbol]: newName }
