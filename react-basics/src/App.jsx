@@ -1,11 +1,11 @@
 import React from 'react';
-import ProjManageWrapper from './component/proj-management/proManageWrapper';
+import StateManagementWrapper from './component/state-management/StateManagementWrapper';
 
 
 const App = () => {
   return (
     <>
-      <ProjManageWrapper />
+      <StateManagementWrapper />
     </>
   )
 }
